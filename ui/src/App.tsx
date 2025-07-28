@@ -12,7 +12,7 @@ function App() {
         <div className="tutorial-section">
           <h2>First component</h2>
           <div className="component-demo">
-            <Button />
+            <Button text="Click me" onClick={() => alert('button clicked')} variant='secondary' />
           </div>
         </div>
       </main>
